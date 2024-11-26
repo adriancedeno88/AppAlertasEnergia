@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["nombre"] = "Adrian Cedeño";
+    ViewData["correo"] = "adrian.cedenor@ug.edu.ec";
+}
+<div class="card text-center">
+    <div class="card-header">
+        <strong>MANTENIMIENTO DE DOMICILIOS</strong>
+    </div>
+    <div class="card-body">     
+    
+        <form>
+            <div class="mb-3 row">
+                <label for="cmbProvincia" class="col-sm-2 col-form-label">Provincia:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="cmbProvincia">
+                        <option selected>Seleccione una provincia</option>
+                        <option value="1">Guayas</option>
+                        <option value="2">Manabi</option>
+                        <option value="3">Pichincha</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbCanton" class="col-sm-2 col-form-label">Canton:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="cmbProvincia">
+                        <option selected>Seleccione un canton</option>
+                        <option value="1">Guayaquil</option>
+                        <option value="2">Duran</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Direccion/Sector:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="cmbDireccion">
+                        <option selected>Seleccione un sector de residencia</option>
+                        <option value="1">Sauces</option>
+                        <option value="2">Suburbio</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Alias:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control"/>
+                </div>
+            </div>           
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Enviar notificacion<strong style="color:red">*</strong>:</label>
+                <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" id="cmbDireccion">                        
+                        <option value="1" selected>SI</option>
+                        <option value="2">NO</option>
+                    </select>
+                </div>
+            </div>            
+           
+        </form>
+    </div>
+    <div class="card-footer text-body-secondary">
+        <strong style="color:red">*</strong>Todos campos señalados son obligatorios de ingresarlos
+    </div>
+</div>

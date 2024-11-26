@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["nombre"] = "Adrian Cedeño";
+    ViewData["correo"] = "adrian.cedenor@ug.edu.ec";
+}
+<div class="card text-center">
+    <div class="card-header">
+        <strong>REGISTRATE</strong>
+    </div>
+    <div class="card-body">
+
+        <form>
+            <div class="mb-3 row">
+                <label for="cmbProvincia" class="col-sm-2 col-form-label">Nombres:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbCanton" class="col-sm-2 col-form-label">Apellidos:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Correo Electronico:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" />
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Contraseña:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" />
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="cmbDireccion" class="col-sm-2 col-form-label">Confirmar Contraseña:<strong style="color:red">*</strong></label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" />
+                </div>
+            </div>
+            <button type="button" class="btn btn-success">Registrarse</button>
+        </form>
+    </div>
+    <div class="card-footer text-body-secondary">
+        <strong style="color:red">*</strong>Todos campos señalados son obligatorios de ingresarlos
+    </div>
+</div>

@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["nombre"] = "Adrian Cedeño";
+    ViewData["correo"] = "adrian.cedenor@ug.edu.ec";
+}
+<div class="card" >
+    
+    <div class="card-header">
+        Cortes de energia programados para @ViewData["nombre"]
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Periodo Fechas</th>
+                    <th scope="col">Horarios de corte</th>
+                    <th scope="col">Alias</th>
+                    <th scope="col">Alerta activa</th>
+                    <th scope="col">Accion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Guayas - Guayaquil - Av. Juan Tanca Marengo</td>
+                    <td>18-nov.-2024 hasta 24-nov.-2024</td>
+                    <td>06:00 a 09:00</td>
+                    <td>Trabajo</td>
+                    <td style="text-align:center">Si</td>
+                    <td><a href="#">Editar</a> | <a href="#">Eliminar</a></td>
+                </tr>
+                <tr>
+                    <td>Guayas - Guayaquil - Sauces</td>
+                    <td>18-nov.-2024 hasta 24-nov.-2024</td>
+                    <td>07:00 a 11:00</td>
+                    <td>Tia</td>
+                    <td style="text-align:center">Si</td>
+                    <td><a href="#">Editar</a> | <a href="#">Eliminar</a></td>
+                </tr>
+                <tr>
+                    <td>Guayas - Duran - Primavera 2</td>
+                    <td>18-nov.-2024 hasta 24-nov.-2024</td>
+                    <td>06:00 a 09:00</td>
+                    <td>Casa</td>
+                    <td style="text-align:center">Si</td>
+                    <td><a href="#">Editar</a> | <a href="#">Eliminar</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    <div class="card-footer text-body-secondary">
+        Correo electronico a notificar @ViewData["correo"], su notificacion llegará 10 minutos antes.
+    </div>
+</div>
