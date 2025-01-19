@@ -1,6 +1,5 @@
 ﻿using AppAlertasEnergia.Data;
 using AppAlertasEnergia.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +15,8 @@ namespace AppAlertasEnergia.Controllers
             _context = _context;
         }
 
+        public IActionResult Sesion() => View();
+
         public IActionResult Login()=>View();
         
            
@@ -25,11 +26,7 @@ namespace AppAlertasEnergia.Controllers
             if (ModelState.IsValid) {
                 var user = await _context.Usuario.FirstOrDefaultAsync(u =>u.email== model.email && u.clave == model.clave);
                 if (user != null) { 
-                    var result = await _signInManager.PasswordSignInAsync(user, model.clave,false,false);
-                    if (result.Succeeded) { 
-                        return RedirectToAction("Login", "Sesion");
-                    }
-                    ModelState.AddModelError(string.Empty, "Usuario invalido.");
+                    return RedirectToAction("Menu", "Sesion");
                 }
                 else
                 {
@@ -41,8 +38,12 @@ namespace AppAlertasEnergia.Controllers
 
         public async Task<IActionResult> Logout()
         {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("Login");
+            return RedirectToAction("Index","Home");
+        }
+
+        public IActionResult Menu()
+        {
+            return View();
         }
     }
 }
