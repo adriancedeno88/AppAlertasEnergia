@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppAlertasEnergia.x8gg6mvh76.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 03:05:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 19 Jan 2025 02:51:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AppAlertasEnergia/AppAlertasEnergia.x8gg6mvh76.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppAlertasEnergia.x8gg6mvh76.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x8gg6mvh76"},{"Name":"integrity","Value":"sha256-QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI="},{"Name":"label","Value":"_content/AppAlertasEnergia/AppAlertasEnergia.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 03:05:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1135"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcSD5hmYPbt7DztGTD8Vw0y3Zbes6Wh1ssDXmsUldMI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 19 Jan 2025 02:51:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AppAlertasEnergia/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

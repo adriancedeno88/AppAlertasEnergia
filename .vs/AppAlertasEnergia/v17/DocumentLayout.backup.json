@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\sesion\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\sesion\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\home\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\home\\sesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\home\\mantenimiento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\home\\mantenimiento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|c:\\users\\adrian cedeno\\source\\repos\\appalertasenergia\\appalertasenergia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15C5844D-0FA3-4CB7-AE59-E5A4741BBE4E}|AppAlertasEnergia\\AppAlertasEnergia.csproj|solutionrelative:appalertasenergia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,88 +34,68 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Mantenimiento.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Mantenimiento.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Home\\Mantenimiento.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Mantenimiento.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Home\\Mantenimiento.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T22:12:25.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Menu.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Menu.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Home\\Menu.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Menu.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Home\\Menu.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T04:05:06.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sesion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Sesion.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Home\\Sesion.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Sesion.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Home\\Sesion.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwB0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T03:37:42.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AppAlertasEnergia\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwB0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Program.cs",
+              "RelativeDocumentMoniker": "AppAlertasEnergia\\Program.cs",
+              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Program.cs",
+              "RelativeToolTip": "AppAlertasEnergia\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T03:30:03.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T03:22:05.143Z",
+              "WhenOpened": "2025-01-19T06:48:21.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T03:21:46.799Z"
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AppAlertasEnergia\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AppAlertasEnergia\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T06:34:02.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Registro.cshtml",
-              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Home\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Home\\Registro.cshtml",
-              "RelativeToolTip": "AppAlertasEnergia\\Views\\Home\\Registro.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwC8AAAAGAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppAlertasEnergia\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-17T23:56:11.522Z"
+              "WhenOpened": "2025-01-19T06:32:32.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Sesion\\Sesion.cshtml",
+              "RelativeDocumentMoniker": "AppAlertasEnergia\\Views\\Sesion\\Sesion.cshtml",
+              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Views\\Sesion\\Sesion.cshtml",
+              "RelativeToolTip": "AppAlertasEnergia\\Views\\Sesion\\Sesion.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T05:40:21.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SesionController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\SesionController.cs",
+              "RelativeDocumentMoniker": "AppAlertasEnergia\\Controllers\\SesionController.cs",
+              "ToolTip": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\Controllers\\SesionController.cs",
+              "RelativeToolTip": "AppAlertasEnergia\\Controllers\\SesionController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T00:51:12.026Z",
+              "EditorCaption": ""
             }
           ]
         }

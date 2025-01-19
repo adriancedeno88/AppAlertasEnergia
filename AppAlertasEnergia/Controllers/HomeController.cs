@@ -20,7 +20,7 @@ namespace AppAlertasEnergia.Controllers
 
         public IActionResult Sesion()
         {
-            return View();
+            return RedirectToAction("Login", "Sesion");
         }
 
         public IActionResult Mantenimiento()
