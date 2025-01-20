@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public Canton oCanton {  get; set; }
+        public int idcanton {  get; set; }
 
         public string nombre {  get; set; }
     }

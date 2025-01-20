@@ -22,12 +22,20 @@ namespace AppAlertasEnergia.Controllers
         // GET: Provincias
         public async Task<IActionResult> Index()
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             return View(await _context.Provincia.ToListAsync());
         }
 
         // GET: Provincias/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             if (id == null)
             {
                 return NotFound();
@@ -56,6 +64,10 @@ namespace AppAlertasEnergia.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id,nombre")] Provincia provincia)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             if (ModelState.IsValid)
             {
                 _context.Add(provincia);
@@ -68,6 +80,10 @@ namespace AppAlertasEnergia.Controllers
         // GET: Provincias/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             if (id == null)
             {
                 return NotFound();
@@ -88,6 +104,10 @@ namespace AppAlertasEnergia.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,nombre")] Provincia provincia)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             if (id != provincia.id)
             {
                 return NotFound();
@@ -119,6 +139,10 @@ namespace AppAlertasEnergia.Controllers
         // GET: Provincias/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             if (id == null)
             {
                 return NotFound();
@@ -139,6 +163,10 @@ namespace AppAlertasEnergia.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             var provincia = await _context.Provincia.FindAsync(id);
             if (provincia != null)
             {
@@ -151,6 +179,10 @@ namespace AppAlertasEnergia.Controllers
 
         private bool ProvinciaExists(int id)
         {
+            var username = HttpContext.Session.GetString("username");
+            var tipo = HttpContext.Session.GetString("tipo");
+            ViewBag.Username = username;
+            ViewBag.Tipo = tipo;
             return _context.Provincia.Any(e => e.id == id);
         }
     }

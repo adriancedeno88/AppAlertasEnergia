@@ -9,7 +9,6 @@ namespace AppAlertasEnergia.Data
         {
             
         }
-
         public DbSet<Alerta> Alerta { get; set; }
 
         public DbSet<Canton> Canton { get; set; }

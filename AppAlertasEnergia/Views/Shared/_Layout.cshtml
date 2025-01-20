@@ -18,17 +18,50 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Registro">Registrarse</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Sesion" asp-action="Sesion">Iniciar Sesion</a>
-                        </li>                        
+                        @if (@ViewBag.UserName == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Create">Registrarse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Sesion" asp-action="Sesion">Iniciar Sesion</a>
+                            </li>
+                        }
+                        else
+                        {
+                            @if (@ViewBag.Tipo.Equals("1"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Provincias" asp-action="Index">Provincias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Cantons" asp-action="Index">Cantones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Sectors" asp-action="Index">Sectores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Cronogramas" asp-action="Index">Cronogramas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Sesion" asp-action="Logout">Cerrar Sesion</a>
+                                </li>
+                            }else{
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Cronogramas" asp-action="Create">Nueva Ubicacion</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="dropdown-item" asp-area="" asp-controller="Sesion" asp-action="Logout">Cerrar Sesion</a></li>                                
+                            }
+
+                        }
+                       
                     </ul>
                 </div>
             </div>
