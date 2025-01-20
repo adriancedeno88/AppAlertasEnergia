@@ -17,181 +17,181 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppAlertasEnergia
 build_property.RootNamespace = AppAlertasEnergia
-build_property.ProjectDir = C:\Users\Adrian Cedeno\source\repos\AppAlertasEnergia\AppAlertasEnergia\
+build_property.ProjectDir = C:\Users\usuario\OneDrive - Universidad de Guayaquil\Documentos\Downloads\AppAlertasEnergia\AppAlertasEnergia\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Adrian Cedeno\source\repos\AppAlertasEnergia\AppAlertasEnergia
+build_property.MSBuildProjectDirectory = C:\Users\usuario\OneDrive - Universidad de Guayaquil\Documentos\Downloads\AppAlertasEnergia\AppAlertasEnergia
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Alertas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcnRhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FudG9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FudG9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FudG9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FudG9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cantons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FudG9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Jvbm9ncmFtYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Jvbm9ncmFtYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Jvbm9ncmFtYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Jvbm9ncmFtYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Cronogramas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Jvbm9ncmFtYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Cronogramas.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Cronogramas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcm9ub2dyYW1hcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Mantenimiento.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Mantenimiento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW50ZW5pbWllbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Registro.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Home/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2lhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2lhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2lhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2lhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Provincias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2lhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sectors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Error.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Menu.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXE1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Sesion.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Sesion/Sesion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXFNlc2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/Error.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Create.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Delete.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Details.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Edit.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Index.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/_ViewImports.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/_ViewStart.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Adrian Cedeno/source/repos/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/_Layout.cshtml]
+[C:/Users/usuario/OneDrive - Universidad de Guayaquil/Documentos/Downloads/AppAlertasEnergia/AppAlertasEnergia/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lei65c8rns
