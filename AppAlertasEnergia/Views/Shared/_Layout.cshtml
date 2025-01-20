@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,11 +7,63 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AppAlertasEnergia.styles.css" asp-append-version="true" />
+    <style>
+        .navbar {
+            background-image: url('/images/inicio.png');
+            background-size: cover;
+            background-position: center;
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+            position: relative;
+        }
+
+            .navbar::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.5);
+                z-index: 1;
+            }
+
+            .navbar * {
+                position: relative;
+                z-index: 2;
+            }
+
+        .navbar-nav .nav-link {
+            color: black !important;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .navbar-brand {
+            color: black !important;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-toggler-icon {
+            width: 2rem;
+            height: 2rem;
+            background-size: contain;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+        }
+    </style>
+
+
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <img src="/images/energia.jpeg" width="50" height="50"/>
+            <img src="/images/energia.jpeg" width="80" height="70" />
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Alertas-Energia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -52,34 +104,37 @@
                                 <li class="nav-item">
                                     <a class="dropdown-item" asp-area="" asp-controller="Sesion" asp-action="Logout">Cerrar Sesion</a>
                                 </li>
-                            }else{
+                            }
+                            else
+                            {
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Cronogramas" asp-action="Create">Nueva Ubicacion</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="dropdown-item" asp-area="" asp-controller="Sesion" asp-action="Logout">Cerrar Sesion</a></li>                                
+                                    <a class="dropdown-item" asp-area="" asp-controller="Sesion" asp-action="Logout">Cerrar Sesion</a>
+                                </li>
                             }
 
                         }
-                       
+
                     </ul>
                 </div>
             </div>
             <div>
                 <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" 
-                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-user fa-fw"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item disabled" href="#!">Usuario:</a></li>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown"
+                           href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user fa-fw"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item disabled" href="#!">Usuario:</a></li>
                             <li><hr class="dropdown-divider" /></li>
                             <li><a class="dropdown-item" href="@Url.Action("Index","Home")">Ir al Inicio</a></li>
                             <li><a class="dropdown-item" href="#!">Mi perfil</a></li>
-                            <li><hr class="dropdown-divider"/></li>
+                            <li><hr class="dropdown-divider" /></li>
                             <li><a class="dropdown-item" href="@Url.Action("Index","Home")">Cerrar Sesion</a></li>
-                    </ul>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -91,9 +146,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top bg-dark footer text-muted">
         <div class="container">
-            &copy; 2024 - AppAlertasEnergia - <a asp-area="" asp-controller="Home" asp-action="Registro">Registrate</a>
+            &copy; 2025 - AppAlertasEnergia - <a asp-area="" asp-controller="Home" asp-action="Registro">Registrate</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
