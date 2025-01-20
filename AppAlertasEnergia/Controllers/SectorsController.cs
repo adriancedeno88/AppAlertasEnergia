@@ -22,7 +22,8 @@ namespace AppAlertasEnergia.Controllers
         // GET: Sectors
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Sector.ToListAsync());
+            var applicationDbContext = _context.Sector.Include(s => s.Canton);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Sectors/Details/5
@@ -34,6 +35,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var sector = await _context.Sector
+                .Include(s => s.Canton)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (sector == null)
             {
@@ -46,6 +48,7 @@ namespace AppAlertasEnergia.Controllers
         // GET: Sectors/Create
         public IActionResult Create()
         {
+            ViewData["idcanton"] = new SelectList(_context.Canton, "id", "id");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,nombre")] Sector sector)
+        public async Task<IActionResult> Create([Bind("Id,idcanton,nombre")] Sector sector)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace AppAlertasEnergia.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idcanton"] = new SelectList(_context.Canton, "id", "id", sector.idcanton);
             return View(sector);
         }
 
@@ -78,6 +82,7 @@ namespace AppAlertasEnergia.Controllers
             {
                 return NotFound();
             }
+            ViewData["idcanton"] = new SelectList(_context.Canton, "id", "id", sector.idcanton);
             return View(sector);
         }
 
@@ -86,7 +91,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,nombre")] Sector sector)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,idcanton,nombre")] Sector sector)
         {
             if (id != sector.Id)
             {
@@ -113,6 +118,7 @@ namespace AppAlertasEnergia.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idcanton"] = new SelectList(_context.Canton, "id", "id", sector.idcanton);
             return View(sector);
         }
 
@@ -125,6 +131,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var sector = await _context.Sector
+                .Include(s => s.Canton)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (sector == null)
             {

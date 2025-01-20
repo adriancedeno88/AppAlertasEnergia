@@ -13,16 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte02.jpeg",
-      "PackagePath": "staticwebassets\\images\\corte02.jpeg"
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte02.jpg",
+      "PackagePath": "staticwebassets\\images\\corte02.jpg"
     },
     {
-      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte03.jpg",
-      "PackagePath": "staticwebassets\\images\\corte03.jpg"
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte1.png",
+      "PackagePath": "staticwebassets\\images\\corte1.png"
     },
     {
-      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte1.jpg",
-      "PackagePath": "staticwebassets\\images\\corte1.jpg"
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte2.png",
+      "PackagePath": "staticwebassets\\images\\corte2.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\corte3.png",
+      "PackagePath": "staticwebassets\\images\\corte3.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\cortes 01.png",
+      "PackagePath": "staticwebassets\\images\\cortes 01.png"
     },
     {
       "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\energia.jpeg",
@@ -31,6 +39,10 @@
     {
       "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\flecha1.png",
       "PackagePath": "staticwebassets\\images\\flecha1.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\images\\inicio.png",
+      "PackagePath": "staticwebassets\\images\\inicio.png"
     },
     {
       "Id": "C:\\Users\\Adrian Cedeno\\source\\repos\\AppAlertasEnergia\\AppAlertasEnergia\\wwwroot\\js\\site.js",

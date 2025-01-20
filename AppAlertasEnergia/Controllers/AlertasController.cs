@@ -22,7 +22,8 @@ namespace AppAlertasEnergia.Controllers
         // GET: Alertas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Alerta.ToListAsync());
+            var applicationDbContext = _context.Alerta.Include(a => a.cronograma);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Alertas/Details/5
@@ -34,6 +35,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var alerta = await _context.Alerta
+                .Include(a => a.cronograma)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (alerta == null)
             {
@@ -46,6 +48,7 @@ namespace AppAlertasEnergia.Controllers
         // GET: Alertas/Create
         public IActionResult Create()
         {
+            ViewData["idsector"] = new SelectList(_context.Cronograma, "Id", "Id");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,direccion,alias,correo,estado,fechaRegistro")] Alerta alerta)
+        public async Task<IActionResult> Create([Bind("Id,idsector,direccion,alias,correo,estado,fechaRegistro")] Alerta alerta)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace AppAlertasEnergia.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idsector"] = new SelectList(_context.Cronograma, "Id", "Id", alerta.idsector);
             return View(alerta);
         }
 
@@ -78,6 +82,7 @@ namespace AppAlertasEnergia.Controllers
             {
                 return NotFound();
             }
+            ViewData["idsector"] = new SelectList(_context.Cronograma, "Id", "Id", alerta.idsector);
             return View(alerta);
         }
 
@@ -86,7 +91,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,direccion,alias,correo,estado,fechaRegistro")] Alerta alerta)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,idsector,direccion,alias,correo,estado,fechaRegistro")] Alerta alerta)
         {
             if (id != alerta.Id)
             {
@@ -113,6 +118,7 @@ namespace AppAlertasEnergia.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idsector"] = new SelectList(_context.Cronograma, "Id", "Id", alerta.idsector);
             return View(alerta);
         }
 
@@ -125,6 +131,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var alerta = await _context.Alerta
+                .Include(a => a.cronograma)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (alerta == null)
             {

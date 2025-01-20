@@ -1,10 +1,13 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\corte02.jpeg
-wwwroot\images\corte03.jpg
-wwwroot\images\corte1.jpg
+wwwroot\images\corte02.jpg
+wwwroot\images\corte1.png
+wwwroot\images\corte2.png
+wwwroot\images\corte3.png
+wwwroot\images\cortes 01.png
 wwwroot\images\energia.jpeg
 wwwroot\images\flecha1.png
+wwwroot\images\inicio.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

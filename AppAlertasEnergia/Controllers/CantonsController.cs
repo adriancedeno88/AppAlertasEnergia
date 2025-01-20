@@ -22,7 +22,8 @@ namespace AppAlertasEnergia.Controllers
         // GET: Cantons
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Canton.ToListAsync());
+            var applicationDbContext = _context.Canton.Include(c => c.provincia);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Cantons/Details/5
@@ -34,6 +35,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var canton = await _context.Canton
+                .Include(c => c.provincia)
                 .FirstOrDefaultAsync(m => m.id == id);
             if (canton == null)
             {
@@ -46,6 +48,7 @@ namespace AppAlertasEnergia.Controllers
         // GET: Cantons/Create
         public IActionResult Create()
         {
+            ViewData["idProvincia"] = new SelectList(_context.Provincia, "id", "id");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,nombre")] Canton canton)
+        public async Task<IActionResult> Create([Bind("id,nombre,idProvincia")] Canton canton)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace AppAlertasEnergia.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idProvincia"] = new SelectList(_context.Provincia, "id", "id", canton.idProvincia);
             return View(canton);
         }
 
@@ -78,6 +82,7 @@ namespace AppAlertasEnergia.Controllers
             {
                 return NotFound();
             }
+            ViewData["idProvincia"] = new SelectList(_context.Provincia, "id", "id", canton.idProvincia);
             return View(canton);
         }
 
@@ -86,7 +91,7 @@ namespace AppAlertasEnergia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,nombre")] Canton canton)
+        public async Task<IActionResult> Edit(int id, [Bind("id,nombre,idProvincia")] Canton canton)
         {
             if (id != canton.id)
             {
@@ -113,6 +118,7 @@ namespace AppAlertasEnergia.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["idProvincia"] = new SelectList(_context.Provincia, "id", "id", canton.idProvincia);
             return View(canton);
         }
 
@@ -125,6 +131,7 @@ namespace AppAlertasEnergia.Controllers
             }
 
             var canton = await _context.Canton
+                .Include(c => c.provincia)
                 .FirstOrDefaultAsync(m => m.id == id);
             if (canton == null)
             {
